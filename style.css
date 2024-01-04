@@ -1,0 +1,531 @@
+body{
+    background-color: rgb(51, 51, 51);
+}
+table{
+    border: 2px solid #6e1111d2;
+    width: 50%;
+    height: 700px; 
+    margin: 0 auto;
+    color: whitesmoke;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+a{
+    font-size: 20px;
+    color: black;
+}
+td{
+    border: 2px solid #6e1111d2;
+    width: 300px;
+    text-align: center;
+    font-size: 30px;
+    height: 100px;
+}
+hr{
+    border:solid 2px rgb(51, 51, 51);  
+}
+.menu{
+    background-color: #6e1111d2;
+    width: 50%;
+    height: 50px;
+    float: left;
+    text-align: center;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 40px;
+}
+.menu2{
+    background-color: #332525d2;
+    width: 50%;
+    height: 50px;
+    float: left;
+    text-align: center;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 40px
+}
+.logo{
+    background-color: hsl(150, 1%, 30%);
+    color: #fff; 
+    font-family: Arial, sans-serif; 
+    font-size: 3vw; 
+    text-transform: uppercase; 
+    text-align: center; 
+    padding: 20px; 
+    letter-spacing: 2px; 
+    text-shadow: 2px 2px 4px rgb(0, 0, 0); 
+    border: 2px solid #6e1111d2; 
+    border-radius: 10px; 
+
+}
+.animacja{
+margin: auto;
+width: 100%;
+height: 20px;
+background-color: red;
+position: relative;
+animation-name: animacja;
+animation-duration: 4s;
+animation-iteration-count: infinite;
+
+}
+@keyframes animacja {
+    0%   {background-color:rgb(255, 255, 255);}
+    25%  {background-color:rgb(114, 114, 114);}
+    50%  {background-color:rgb(82, 44, 44); ;}
+    75%  {background-color:rgb(87, 26, 26);}
+    100% {background-color:rgb(255, 255, 255);}
+  }
+.div{
+    width: 100%;
+    height: auto;
+    color: whitesmoke;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 30px;
+    
+}
+.div2{
+    margin: auto;
+    width: 100%;
+    height: auto;
+    padding: 10px;
+}
+.stopka{
+    background-color: hsl(0, 52%, 19%);
+    color: #fff; 
+    font-family: Arial, sans-serif; 
+    font-size: 3vw; 
+    text-transform: uppercase; 
+    text-align: center; 
+    padding: 20px; 
+    text-shadow: 2px 2px 4px rgb(0, 0, 0); 
+    text-align: right;
+    
+    
+}
+.mgsv{
+    background-image: url(foto/mgsv.jpg);
+    background-repeat: no-repeat;
+    background-color: rgb(22, 22, 22);
+    background-position: 50%;
+    background-blend-mode: overlay;
+    width: 100%;
+    height: 600px;
+    position: relative;
+    text-align: justify;
+    font-size: 40px;
+    color: whitesmoke;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-shadow: 2px 2px 2px rgb(255, 0, 0);
+}
+.text{
+    display: flex;
+    position: absolute;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    font-size: 60px;
+    width: 100%;
+    height: auto;
+    top: 0%;
+    color: whitesmoke;
+    text-shadow: 4px 4px 4px rgb(255, 0, 0);
+}
+.earth{
+    background-image: url(foto/middle-earth.jpg);
+    background-repeat: no-repeat;
+    background-position: 50%;
+    background-blend-mode: overlay;
+    background-color: rgb(36, 23, 23);
+    width: 100%;
+    height: 600px;
+    position: relative;
+    text-align: justify;
+    font-size: 40px;
+    color: whitesmoke;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-shadow: 2px 2px 2px rgb(125, 167, 184);
+}
+.text2{
+    display: flex;
+    position: absolute;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    font-size: 60px;
+    height: auto;
+    width: 100%;
+    top: 0%;
+    color: whitesmoke;
+    text-shadow: 4px 4px 4px rgb(125, 167, 184); 
+}
+.mgrr{
+    background-image: url(foto/mgrr.jpg);
+    background-repeat: no-repeat;
+    background-position: 50%;
+    background-blend-mode:overlay;
+    background-color: rgb(5, 70, 95);
+    color: whitesmoke;
+    width: 100%;
+    height: 600px;
+    position: relative;
+    text-align: justify;
+    font-size: 40px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-shadow: 2px 2px 2px rgb(0, 183, 255);
+}
+.text3{
+    display: flex;
+    position: absolute;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    font-size: 60px;
+    height: auto;
+    width: 100%;
+    top: 0%;
+
+    text-shadow: 4px 4px 4px rgb(0, 183, 255);
+}
+.sekiro{
+    background-image: url(foto/sekiro.jpg);
+    background-repeat: no-repeat;
+    background-position: 50%;
+    background-blend-mode: overlay;
+    background-color: rgb(14, 20, 13);
+    color: whitesmoke;
+    width: 100%;
+    height: 600px;
+    position: relative;
+    text-align: justify;
+    font-size: 40px;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif ;
+    text-shadow: 2px 2px 2px rgb(57, 95, 44);
+}
+.text4{
+    display: flex;
+    position: absolute;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    font-size: 60px;
+    height: auto;
+    width: 100%;
+    top: 0%;
+    text-shadow: 2px 2px 4px rgb(255, 195, 66); 
+}
+.genshin{
+    background-image: url(foto/genshin.jpg);
+    background-repeat: no-repeat;
+    background-position: 50%;
+    background-blend-mode: overlay;
+    background-color: rgb(187, 187, 187);
+    color: rgb(90, 90, 90);
+    width: 100%;
+    height: 600px;
+    position: relative;
+    text-align: justify;
+    font-size: 40px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-shadow: 2px 2px 2px rgb(255, 255, 255);
+}
+.text5{
+    display: flex;
+    position: absolute;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    font-size: 60px;
+    color: whitesmoke;
+    height: auto;
+    width: 100%;
+    top: 0%;
+    text-shadow: 4px 4px 4px rgb(0, 0, 0);
+}
+.ghost{
+    background-image: url(foto/ghost.jpg);
+    background-repeat: no-repeat;
+    background-position: 50%;
+    background-blend-mode: overlay;
+    background-color: rgb(88, 88, 88);
+    color: whitesmoke;
+    width: 100%;
+    height: 600px;
+    position: relative;
+    text-align: justify;
+    font-size: 40px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-shadow: 2px 2px 2px rgb(78, 19, 19);
+}
+.text6{
+    display: flex;
+    position: absolute;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    font-size: 60px;
+    height: auto;
+    width: 100%;
+    top: 0%;
+    text-shadow: 3px 3px 4px rgb(78, 19, 19);
+}
+.ac2{
+    background-image: url(foto/ac2.jpg);
+    background-repeat: no-repeat;
+    background-position: 50%;
+    background-color: rgb(71, 53, 41);
+    color: rgb(255, 255, 255);
+    width: 100%;
+    height: 600px;
+    position: relative;
+    text-align: justify;
+    font-size: 40px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-shadow: 2px 2px 2px rgb(255, 59, 59);
+}   
+.text7{
+    display: flex;
+    position: absolute;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    font-size: 60px;
+    height: auto;
+    width: 100%;
+    color: black;
+    top: 0%;
+    text-shadow: 4px 4px 4px rgb(255, 138, 138);
+}
+@media screen and (max-width:1200px){
+.logo{
+    font-size: 4vw;
+}
+.menu{
+    border: 2px dashed #6e1111d2;
+    width: 100%;
+}
+.menu2{
+    border: 2px solid #6e1111d2;
+    width: 100%;
+}
+.logo{
+    margin-top: 2px
+}
+.mgsv{
+    font-size: 30px;
+    height: auto;
+    text-shadow: none;
+}
+.text{
+    font-size: 40px;   
+}
+.earth{
+    font-size: 30px;
+    height: auto;
+    text-shadow:none ;
+}
+.text2{
+    font-size: 40px;
+}
+.mgrr{
+    font-size: 30px;
+    height: auto;
+    text-shadow: none;
+}
+.text3{
+    font-size: 35px;
+}
+.sekiro{
+    font-size: 30px;
+    height: auto;
+    text-shadow: none;
+    background-blend-mode: normal;
+}
+.text4{
+    font-size: 40px; 
+}
+.genshin{
+    font-size: 30px;
+    height: auto;
+    text-shadow: none;
+}
+.text5{
+    font-size: 35px;
+}
+.ghost{
+    font-size: 30px;
+    height: auto;
+    text-shadow: none;
+}
+.text6{
+    font-size: 40px; 
+}
+.ac2{
+    font-size: 30px;
+    height: auto;
+    text-shadow: none; 
+}
+.text7{
+    font-size: 40px;
+}
+table{
+    width: 550px;
+    height: 500px;
+}
+.stopka{
+    font-size: 4vw;
+}
+}
+@media screen and (max-width: 600px) {
+.menu{
+    height: auto;
+}
+.div{
+    border: 2px dotted #6e1111d2;
+}
+.mgsv{
+    font-size: 20px;
+    background-image: none; 
+}
+.text{
+    font-size: 30px;
+    text-shadow: none;
+}
+.earth{
+    font-size: 20px;
+    background-image: none;
+}
+.text2{
+    font-size: 30px;
+    text-shadow: none;
+}
+.mgrr{
+    font-size: 20px;
+    background-image: none;
+}
+.text3{
+    font-size: 28px;
+    text-shadow: none;
+}
+.sekiro{
+    font-size: 20px;
+    background-image: none;
+}
+.text4{
+    font-size: 30px;
+    text-shadow: none;
+}
+.genshin{
+    font-size: 20px;
+    background-image: none;
+}
+.text5{
+    font-size: 30px;
+    text-shadow: none;
+}
+.ghost{
+    font-size: 20px;
+    background-image: none;
+}
+.text6{
+    font-size: 30px;
+    text-shadow: none;
+}
+.ac2{
+    font-size: 20px;
+    background-image: none;
+}
+.text7{
+    font-size: 30px;
+    text-shadow: none;
+}
+table{
+    width: 350px;
+}
+}
+* {box-sizing:border-box}
+
+
+.slideshow-container {
+  max-width: 1000px;
+  position: relative;
+  margin: auto;
+}
+
+
+.mySlides {
+  display: none;
+}
+
+
+.prev, .next {
+  cursor: pointer;
+  position: absolute;
+  top: 50%;
+  width: auto;
+  margin-top: -22px;
+  padding: 16px;
+  color: white;
+  font-weight: bold;
+  font-size: 18px;
+  transition: 0.6s ease;
+  border-radius: 0 3px 3px 0;
+  user-select: none;
+}
+
+
+.next {
+  right: 0;
+  border-radius: 3px 0 0 3px;
+}
+
+
+.prev:hover, .next:hover {
+  background-color: rgba(0,0,0,0.8);
+}
+
+
+.text8 {
+  color: #f2f2f2;
+  font-size: 15px;
+  padding: 8px 12px;
+  position: absolute;
+  bottom: 8px;
+  width: 100%;
+  text-align: center;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+
+.numbertext {
+  color: #000000;
+  font-size: 12px;
+  padding: 8px 12px;
+  position: absolute;
+  top: 0;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+
+.dot {
+  cursor: pointer;
+  height: 15px;
+  width: 15px;
+  margin: 0 2px;
+  background-color: #bbb;
+  border-radius: 50%;
+  display: inline-block;
+  transition: background-color 0.6s ease;
+}
+
+.active, .dot:hover {
+  background-color: #717171;
+}
+
+
+.fade {
+  animation-name: fade;
+  animation-duration: 1.5s;
+}
+
+@keyframes fade {
+  from {opacity: .4}
+  to {opacity: 1}
+}

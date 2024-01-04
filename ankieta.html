@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" type="text/css" href="style2.css">
+<title>Ankieta</title>
+</head>
+<body>
+<div class="logo">Krótka ankieta</div>
+<br>
+<div class="ankieta">
+    <label for=wiek>Ile masz lat</label> 
+    <input type=number id=wiek name=wiek min=12 max=100>
+    <h2>Płeć</h2>                
+    <input type=radio id=facet name=plec value=facet>
+    <label for=facet>Mężczyzna</label><br>
+    <input type=radio id=kobieta name=plec value=kobieta>
+    <label for=kobieta>Kobieta</label><br>
+    <input type=radio id=inna name=plec value=inna>
+    <label for=inna>Inna/Wolę nie mówić</label>
+    <h2>Która z tych gier podoba ci się najbardziej?</h2>
+    <select name=game id=game>
+    <option value=mgs selected>METAL GEAR SOLID V: THE PHANTOM PAIN</option>
+    <option value=middle>Middle-earth: Shadow of War</option>
+    <option value=mgrr>METAL GEAR RISING: REVENGEANCE</option>
+    <option value=sekiro>Sekiro: Shadows Die Twice</option>
+    <option value=genshin>Genshin Impact</option>
+    <option value=got>Ghost of Tsushima</option>
+    <option value=ac2>Assassin's Creed II</option>
+    </select>
+    <h2>Napisz dlaczego?</h2>
+    <textarea name=text id=text cols=20 rows=7>Puste</textarea><br>
+    <button type=button onclick="alert(':3')">^w^</button>
+    <input type=submit value="Prześlij">
+<br>
+<a href="index.html" target=_blank>Powrót</a>
+</div>
+
+</body>
+</html>

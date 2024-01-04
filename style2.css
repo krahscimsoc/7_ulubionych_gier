@@ -1,0 +1,113 @@
+body{
+    background-color: rgb(51, 51, 51);
+}
+select{
+    color: whitesmoke;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    background-color: hsl(150, 1%, 30%);
+    font-size: 30px;
+    border: 2px solid #6e1111d2;
+}
+textarea{
+    color: whitesmoke;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    background-color: hsl(150, 1%, 30%);
+    font-size: 20px;
+    width: 500px;
+    border: 2px solid #6e1111d2;
+}
+input{
+    color: whitesmoke;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    background-color: hsl(150, 1%, 30%);
+    font-size: 30px;
+    border: 2px solid #6e1111d2; 
+    font-size: 1vw;
+
+}
+button{
+    color: whitesmoke;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    background-color: hsl(150, 1%, 30%);
+    font-size: 30px;
+    border: 2px solid #6e1111d2;
+}
+a{
+    color: black;
+}
+.logo{
+    background-color: hsl(150, 1%, 30%);
+    color: #fff; 
+    font-family: Arial, sans-serif; 
+    font-size: 3vw; 
+    text-transform: uppercase; 
+    text-align: center; 
+    padding: 20px; 
+    letter-spacing: 2px; 
+    text-shadow: 2px 2px 4px rgb(0, 0, 0); 
+    border: 2px solid #6e1111d2; 
+    border-radius: 10px; 
+}
+.ankieta{
+    margin: auto;
+    width: 50%;
+    height: auto;
+    padding: 10px;
+    color: whitesmoke;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif; 
+    font-size: 2vw;
+}
+.stopka{
+    background-color: hsl(0, 52%, 19%);
+    color: #fff; 
+    font-family: Arial, sans-serif; 
+    font-size: 40px; 
+    text-transform: uppercase; 
+    text-align: center; 
+    padding: 20px; 
+    text-shadow: 2px 2px 4px rgb(0, 0, 0); 
+    text-align: right;
+}
+@media screen and (max-width:1200px){
+    .ankieta{
+        margin: 0%;
+        padding: 0px;
+    }
+select{
+    width: 300px;
+    font-size: 20px;
+}
+option{
+    width: 300px;
+}
+textarea{
+    width: 350px;
+}
+input{
+    width: 60px;
+    height: 30px;
+}
+}
+@media screen and (max-width:600px){
+.logo{
+    font-size: 4vw;
+}
+.ankieta{
+    font-size: 3vw;
+}
+option{
+    width: 200px;
+}
+select{
+    width: 200px;
+    font-size: 15px;
+}
+textarea{
+    width: 200px;
+}
+input{
+    width: 50px;
+    height: 20px;
+    font-size: 2vw;
+}
+}
